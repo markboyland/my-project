@@ -127,6 +127,11 @@ header h1 {
   font-weight: 600;
 }
 
+.hud-buttons {
+  display: flex;
+  gap: 8px;
+}
+
 button {
   font: inherit;
   border: 1px solid var(--accent);
@@ -147,7 +152,8 @@ button.secondary {
   color: var(--accent);
 }
 
-#newGameBtn {
+#newGameBtn,
+#solveOneBtn {
   background: white;
   color: var(--accent);
   font-size: 0.85rem;

@@ -6,169 +6,61 @@
       "GREEN",
       "YELLOW"
     ],
-    "theme": "Primary/basic colors"
+    "theme": "Colors"
   },
   {
     "words": [
-      "BLUE",
-      "DOWN",
-      "LOW",
-      "GLUM"
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY"
     ],
-    "theme": "Words meaning sad"
+    "theme": "Days of the week"
   },
   {
     "words": [
-      "DOWN",
-      "UP",
-      "LEFT",
-      "RIGHT"
+      "SPRING",
+      "SUMMER",
+      "AUTUMN",
+      "WINTER"
     ],
-    "theme": "Directions on a joystick"
+    "theme": "Seasons"
   },
   {
     "words": [
-      "LEFT",
-      "RIGHT",
-      "CENTER",
-      "WING"
+      "JANUARY",
+      "MARCH",
+      "JULY",
+      "OCTOBER"
     ],
-    "theme": "Political leanings"
+    "theme": "Months of the year"
   },
   {
     "words": [
-      "WING",
-      "BREAST",
-      "THIGH",
-      "DRUMSTICK"
+      "CIRCLE",
+      "SQUARE",
+      "TRIANGLE",
+      "RECTANGLE"
     ],
-    "theme": "Cuts of chicken"
+    "theme": "Shapes"
   },
   {
     "words": [
-      "BREAST",
-      "BACKSTROKE",
-      "BUTTERFLY",
-      "FREESTYLE"
+      "NORTH",
+      "SOUTH",
+      "EAST",
+      "WEST"
     ],
-    "theme": "Competitive swimming strokes"
+    "theme": "Compass directions"
   },
   {
     "words": [
-      "BUTTERFLY",
-      "BEETLE",
-      "MOTH",
-      "ANT"
+      "HEARTS",
+      "SPADES",
+      "CLUBS",
+      "DIAMONDS"
     ],
-    "theme": "Insects"
-  },
-  {
-    "words": [
-      "BEETLE",
-      "MUSTANG",
-      "RAM",
-      "JAGUAR"
-    ],
-    "theme": "Car models named after animals"
-  },
-  {
-    "words": [
-      "EWE",
-      "RAM",
-      "SOW",
-      "PIG"
-    ],
-    "theme": "Farm animals"
-  },
-  {
-    "words": [
-      "BEAR",
-      "HARE",
-      "DEER",
-      "EWE"
-    ],
-    "theme": "Animals that are homophones"
-  },
-  {
-    "words": [
-      "DEER",
-      "HARE",
-      "RAT",
-      "VOLE"
-    ],
-    "theme": "Small wild animals"
-  },
-  {
-    "words": [
-      "MOUSE",
-      "RAT",
-      "VOLE",
-      "MOLE"
-    ],
-    "theme": "Small rodents"
-  },
-  {
-    "words": [
-      "RAM",
-      "DISK",
-      "MOUSE",
-      "SCREEN"
-    ],
-    "theme": "Computer hardware"
-  },
-  {
-    "words": [
-      "KNIGHT",
-      "WEIGHT",
-      "BEAR",
-      "THROWN"
-    ],
-    "theme": "Homophones of other words"
-  },
-  {
-    "words": [
-      "SCALE",
-      "WEIGHT",
-      "GAUGE",
-      "METER"
-    ],
-    "theme": "Ways to measure something"
-  },
-  {
-    "words": [
-      "PITCH",
-      "KEY",
-      "NOTE",
-      "SCALE"
-    ],
-    "theme": "Music theory terms"
-  },
-  {
-    "words": [
-      "DIAMOND",
-      "PITCH",
-      "BASE",
-      "HOME"
-    ],
-    "theme": "Baseball terms"
-  },
-  {
-    "words": [
-      "KEY",
-      "LOCK",
-      "BOLT",
-      "LATCH"
-    ],
-    "theme": "Ways to secure a door"
-  },
-  {
-    "words": [
-      "KING",
-      "QUEEN",
-      "ROOK",
-      "BISHOP"
-    ],
-    "theme": "Chess pieces"
+    "theme": "Card suits"
   },
   {
     "words": [
@@ -181,282 +73,30 @@
   },
   {
     "words": [
-      "MOLE",
-      "AGENT",
-      "COVER",
-      "HANDLER"
+      "GOLD",
+      "SILVER",
+      "BRONZE",
+      "PLATINUM"
     ],
-    "theme": "Espionage/spy terms"
+    "theme": "Precious metals"
   },
   {
     "words": [
-      "COPPER",
-      "COP",
-      "FUZZ",
-      "PIG"
+      "EARTH",
+      "MARS",
+      "VENUS",
+      "JUPITER"
     ],
-    "theme": "Slang for a police officer"
+    "theme": "Planets"
   },
   {
     "words": [
-      "IRON",
-      "COPPER",
-      "TIN",
-      "LEAD"
+      "PIKE",
+      "SALMON",
+      "TROUT",
+      "BASS"
     ],
-    "theme": "Metallic elements"
-  },
-  {
-    "words": [
-      "FOLD",
-      "WASH",
-      "IRON",
-      "DRY"
-    ],
-    "theme": "Laundry actions"
-  },
-  {
-    "words": [
-      "FOLD",
-      "CALL",
-      "RAISE",
-      "BLUFF"
-    ],
-    "theme": "Poker actions"
-  },
-  {
-    "words": [
-      "FACE",
-      "HAND",
-      "ARM",
-      "LEG"
-    ],
-    "theme": "Parts of the body"
-  },
-  {
-    "words": [
-      "ARM",
-      "SWORD",
-      "CANNON",
-      "PISTOL"
-    ],
-    "theme": "Weapons"
-  },
-  {
-    "words": [
-      "HAMMER",
-      "WRENCH",
-      "PLIERS",
-      "SCREWDRIVER"
-    ],
-    "theme": "Hand tools"
-  },
-  {
-    "words": [
-      "KEY",
-      "PEDAL",
-      "HAMMER",
-      "STRING"
-    ],
-    "theme": "Parts of a piano"
-  },
-  {
-    "words": [
-      "LEAD",
-      "GUIDE",
-      "STEER",
-      "DIRECT"
-    ],
-    "theme": "Verbs meaning to show the way"
-  },
-  {
-    "words": [
-      "JAGUAR",
-      "PANTHER",
-      "LEOPARD",
-      "COUGAR"
-    ],
-    "theme": "Big cats"
-  },
-  {
-    "words": [
-      "HEEL",
-      "FACE",
-      "RING",
-      "PIN"
-    ],
-    "theme": "Pro wrestling terms"
-  },
-  {
-    "words": [
-      "TONGUE",
-      "SOLE",
-      "HEEL",
-      "LACE"
-    ],
-    "theme": "Parts of a shoe"
-  },
-  {
-    "words": [
-      "TONGUE",
-      "LIP",
-      "CHEEK",
-      "GUM"
-    ],
-    "theme": "Parts of the mouth"
-  },
-  {
-    "words": [
-      "MOUTH",
-      "EAR",
-      "NOSE",
-      "EYE"
-    ],
-    "theme": "Parts of the face"
-  },
-  {
-    "words": [
-      "RING",
-      "BRACELET",
-      "NECKLACE",
-      "BROOCH"
-    ],
-    "theme": "Pieces of jewelry"
-  },
-  {
-    "words": [
-      "PIN",
-      "STRIKE",
-      "SPARE",
-      "GUTTER"
-    ],
-    "theme": "Bowling terms"
-  },
-  {
-    "words": [
-      "STRIKE",
-      "PICKET",
-      "UNION",
-      "WALKOUT"
-    ],
-    "theme": "Labor dispute terms"
-  },
-  {
-    "words": [
-      "GUTTER",
-      "EAVE",
-      "SHINGLE",
-      "CHIMNEY"
-    ],
-    "theme": "Parts of a roof"
-  },
-  {
-    "words": [
-      "CHIMNEY",
-      "SLEIGH",
-      "REINDEER",
-      "STOCKING"
-    ],
-    "theme": "Christmas imagery"
-  },
-  {
-    "words": [
-      "BED",
-      "BANK",
-      "MOUTH",
-      "DELTA"
-    ],
-    "theme": "Features of a river"
-  },
-  {
-    "words": [
-      "BANK",
-      "VAULT",
-      "SAFE",
-      "TELLER"
-    ],
-    "theme": "Places money is kept"
-  },
-  {
-    "words": [
-      "BED",
-      "SOFA",
-      "DESK",
-      "DRESSER"
-    ],
-    "theme": "Pieces of furniture"
-  },
-  {
-    "words": [
-      "EYE",
-      "WALL",
-      "BAND",
-      "SURGE"
-    ],
-    "theme": "Parts of a hurricane"
-  },
-  {
-    "words": [
-      "WALL",
-      "BULL",
-      "BEAR",
-      "PORTFOLIO"
-    ],
-    "theme": "Wall Street/investing terms"
-  },
-  {
-    "words": [
-      "BULL",
-      "MATADOR",
-      "CAPE",
-      "ARENA"
-    ],
-    "theme": "Bullfighting terms"
-  },
-  {
-    "words": [
-      "CAPE",
-      "MASK",
-      "SHIELD",
-      "SUIT"
-    ],
-    "theme": "Superhero costume pieces"
-  },
-  {
-    "words": [
-      "SUIT",
-      "CASE",
-      "BRIEF",
-      "PLEA"
-    ],
-    "theme": "Legal terms"
-  },
-  {
-    "words": [
-      "MASK",
-      "COSTUME",
-      "CANDY",
-      "PUMPKIN"
-    ],
-    "theme": "Halloween imagery"
-  },
-  {
-    "words": [
-      "GUM",
-      "CANDY",
-      "JAM",
-      "HONEY"
-    ],
-    "theme": "Sweet, sticky things"
-  },
-  {
-    "words": [
-      "MAPLE",
-      "HONEY",
-      "BUTTER",
-      "JAM"
-    ],
-    "theme": "Things you might spread on toast"
+    "theme": "Types of fish"
   },
   {
     "words": [
@@ -469,200 +109,794 @@
   },
   {
     "words": [
-      "PINE",
-      "CRAVE",
-      "YEARN",
-      "COVET"
+      "POODLE",
+      "BEAGLE",
+      "BOXER",
+      "COLLIE"
     ],
-    "theme": "Verbs meaning to strongly want something"
+    "theme": "Dog breeds"
   },
   {
     "words": [
-      "SHIELD",
-      "HELMET",
-      "PAD",
-      "GUARD"
+      "JAGUAR",
+      "PANTHER",
+      "LEOPARD",
+      "COUGAR"
     ],
-    "theme": "Protective sports equipment"
+    "theme": "Big cats"
   },
   {
     "words": [
-      "GUARD",
-      "CENTER",
-      "FORWARD",
-      "POINT"
+      "SONNET",
+      "HAIKU",
+      "LIMERICK",
+      "BALLAD"
     ],
-    "theme": "Basketball positions"
+    "theme": "Types of poems"
   },
   {
     "words": [
-      "FORWARD",
-      "MIDFIELDER",
-      "DEFENDER",
-      "GOALKEEPER"
+      "WALTZ",
+      "TANGO",
+      "SALSA",
+      "RUMBA"
     ],
-    "theme": "Soccer positions"
+    "theme": "Types of dance"
   },
   {
     "words": [
-      "POINT",
-      "GOAL",
-      "SCORE",
-      "TALLY"
+      "CROISSANT",
+      "BAGEL",
+      "MUFFIN",
+      "SCONE"
     ],
-    "theme": "Ways to track who's winning"
+    "theme": "Types of pastry"
   },
   {
     "words": [
-      "TALLY",
-      "COUNT",
-      "TOTAL",
-      "SUM"
+      "GRANITE",
+      "MARBLE",
+      "SLATE",
+      "LIMESTONE"
     ],
-    "theme": "Words meaning an overall amount"
+    "theme": "Types of rock"
   },
   {
     "words": [
-      "SCORE",
-      "STAFF",
-      "CLEF",
-      "CHORD"
+      "SEDAN",
+      "COUPE",
+      "HATCHBACK",
+      "CONVERTIBLE"
     ],
-    "theme": "Sheet music terms"
+    "theme": "Types of car body"
   },
   {
     "words": [
-      "STAFF",
-      "CREW",
-      "TEAM",
-      "PERSONNEL"
-    ],
-    "theme": "Words for a group of employees"
-  },
-  {
-    "words": [
-      "METER",
-      "RHYME",
-      "VERSE",
-      "STANZA"
-    ],
-    "theme": "Elements of poetry"
-  },
-  {
-    "words": [
-      "GAS",
-      "BRAKE",
-      "CLUTCH",
-      "HORN"
-    ],
-    "theme": "Parts/controls of a car"
-  },
-  {
-    "words": [
-      "HORN",
-      "TRUMPET",
-      "TUBA",
-      "TROMBONE"
-    ],
-    "theme": "Brass instruments"
-  },
-  {
-    "words": [
-      "BASS",
-      "DRUM",
+      "VIOLIN",
       "CELLO",
-      "TUBA"
+      "VIOLA",
+      "DOUBLE BASS"
     ],
-    "theme": "Low-pitched musical instruments"
+    "theme": "String instruments"
   },
   {
     "words": [
-      "SALMON",
-      "TROUT",
-      "BASS",
-      "PIKE"
+      "LUNCH",
+      "SEA",
+      "PASTURE",
+      "GET YOU"
     ],
-    "theme": "Types of freshwater fish"
+    "theme": "Complete the phrase: \"out to ___\""
   },
   {
     "words": [
+      "DARK",
+      "KNOW",
+      "MOOD",
+      "ZONE"
+    ],
+    "theme": "Complete the phrase: \"in the ___\""
+  },
+  {
+    "words": [
+      "HOUSE",
+      "ROCKS",
+      "FENCE",
+      "BALL"
+    ],
+    "theme": "Complete the phrase: \"on the ___\""
+  },
+  {
+    "words": [
+      "ORDER",
+      "LUCK",
+      "TOWN",
+      "TOUCH"
+    ],
+    "theme": "Complete the phrase: \"out of ___\""
+  },
+  {
+    "words": [
+      "WEATHER",
+      "TABLE",
+      "RADAR",
+      "GUN"
+    ],
+    "theme": "Complete the phrase: \"under the ___\""
+  },
+  {
+    "words": [
+      "HOOK",
+      "RECORD",
+      "WALL",
+      "GRID"
+    ],
+    "theme": "Complete the phrase: \"off the ___\""
+  },
+  {
+    "words": [
+      "BOOK",
+      "WAY",
+      "HOUR",
+      "SKIN"
+    ],
+    "theme": "Complete the phrase: \"by the ___\""
+  },
+  {
+    "words": [
+      "RECORD",
+      "BIRDS",
+      "ROAD",
+      "WIN"
+    ],
+    "theme": "Complete the phrase: \"for the ___\""
+  },
+  {
+    "words": [
+      "DOG",
+      "GREEN",
+      "LIGHT",
+      "TREE"
+    ],
+    "theme": "Complete the phrase: \"___ house\""
+  },
+  {
+    "words": [
+      "HOME",
+      "NET",
+      "FRAME",
+      "TEAM"
+    ],
+    "theme": "Complete the phrase: \"___ work\""
+  },
+  {
+    "words": [
+      "SUN",
+      "MOON",
+      "FLASH",
+      "SPOT"
+    ],
+    "theme": "Complete the phrase: \"___ light\""
+  },
+  {
+    "words": [
+      "BRAIN",
+      "SAND",
+      "THUNDER",
+      "FIRE"
+    ],
+    "theme": "Complete the phrase: \"___ storm\""
+  },
+  {
+    "words": [
+      "WATER",
+      "NIGHT",
+      "RAIN",
+      "PIT"
+    ],
+    "theme": "Complete the phrase: \"___ fall\""
+  },
+  {
+    "words": [
+      "NOTE",
+      "TEXT",
+      "COOK",
+      "YEAR"
+    ],
+    "theme": "Complete the phrase: \"___ book\""
+  },
+  {
+    "words": [
+      "FOOT",
+      "BASKET",
+      "BASE",
+      "EYE"
+    ],
+    "theme": "Complete the phrase: \"___ ball\""
+  },
+  {
+    "words": [
+      "PAN",
+      "CUP",
+      "FISH",
+      "BEEF"
+    ],
+    "theme": "Complete the phrase: \"___ cake\""
+  },
+  {
+    "words": [
+      "KICK",
+      "WALK",
+      "OUT",
+      "UP"
+    ],
+    "theme": "Combine with SIDE, before or after"
+  },
+  {
+    "words": [
+      "OUT",
+      "OVER",
+      "BED",
+      "LIFE"
+    ],
+    "theme": "Combine with TIME, before or after"
+  },
+  {
+    "words": [
+      "UNDER",
+      "GRAND",
+      "BY",
+      "OUT"
+    ],
+    "theme": "Combine with STAND, before or after"
+  },
+  {
+    "words": [
+      "HAND",
+      "MAKE",
+      "COAT",
+      "SEAS"
+    ],
+    "theme": "Combine with OVER, before or after"
+  },
+  {
+    "words": [
+      "HORSE",
+      "FEED",
+      "PACK",
+      "FIRE"
+    ],
+    "theme": "Combine with BACK, before or after"
+  },
+  {
+    "words": [
+      "LOOK",
+      "WORK",
+      "FIT",
+      "LAW"
+    ],
+    "theme": "Combine with OUT, before or after"
+  },
+  {
+    "words": [
+      "SHUT",
+      "BREAK",
+      "TOWN",
+      "FALL"
+    ],
+    "theme": "Combine with DOWN, before or after"
+  },
+  {
+    "words": [
+      "MAKE",
+      "BACK",
+      "SET",
+      "ROAR"
+    ],
+    "theme": "Combine with UP, before or after"
+  },
+  {
+    "words": [
+      "GLAD",
+      "JOYFUL",
+      "CONTENT",
+      "PLEASED"
+    ],
+    "theme": "Ways to say \"happy\""
+  },
+  {
+    "words": [
+      "HUGE",
+      "ENORMOUS",
+      "MASSIVE",
+      "GIGANTIC"
+    ],
+    "theme": "Ways to say \"big\""
+  },
+  {
+    "words": [
+      "TINY",
+      "MINUSCULE",
+      "PETITE",
+      "MICRO"
+    ],
+    "theme": "Ways to say \"small\""
+  },
+  {
+    "words": [
+      "FURIOUS",
+      "IRATE",
+      "ENRAGED",
+      "LIVID"
+    ],
+    "theme": "Ways to say \"very angry\""
+  },
+  {
+    "words": [
+      "EXHAUSTED",
+      "WEARY",
+      "DRAINED",
+      "SPENT"
+    ],
+    "theme": "Ways to say \"very tired\""
+  },
+  {
+    "words": [
+      "FRIGID",
+      "ARCTIC",
+      "ICY",
+      "FREEZING"
+    ],
+    "theme": "Ways to say \"very cold\""
+  },
+  {
+    "words": [
+      "SCORCHING",
+      "SWELTERING",
+      "BOILING",
+      "BLAZING"
+    ],
+    "theme": "Ways to say \"very hot\""
+  },
+  {
+    "words": [
+      "BEAR",
+      "HARE",
+      "DEER",
+      "EWE"
+    ],
+    "theme": "Homophones of other words"
+  },
+  {
+    "words": [
+      "KNIGHT",
+      "WEIGHT",
+      "THROWN",
+      "BEAR"
+    ],
+    "theme": "Homophones of other words"
+  },
+  {
+    "words": [
+      "SEA",
+      "FLOUR",
+      "BEAT",
+      "WEAK"
+    ],
+    "theme": "Homophones of other words"
+  },
+  {
+    "words": [
+      "MAIL",
+      "PEAK",
+      "SOLE",
+      "BREAK"
+    ],
+    "theme": "Homophones of other words"
+  },
+  {
+    "words": [
+      "WAIST",
+      "PLANE",
       "ROSE",
-      "CORAL",
-      "SALMON",
-      "BLUSH"
+      "BOARD"
     ],
-    "theme": "Shades of pink"
+    "theme": "Homophones of other words"
   },
   {
     "words": [
-      "VIOLET",
-      "ROSE",
-      "LILY",
-      "DAISY"
+      "CENT",
+      "KNOT",
+      "WOOD",
+      "WEIGH"
     ],
-    "theme": "Types of flowers"
+    "theme": "Homophones of other words"
   },
   {
     "words": [
-      "RUBY",
-      "JADE",
-      "PEARL",
-      "VIOLET"
+      "CREDIT",
+      "INSTANT",
+      "MARIGOLD",
+      "TRUST"
     ],
-    "theme": "Girls' names also meaning colors/gems"
+    "theme": "Each hides a different color (RED, TAN, GOLD, RUST)"
   },
   {
     "words": [
-      "RUBY",
-      "JADE",
-      "OPAL",
-      "PEARL"
+      "VACATION",
+      "DOGMA",
+      "PIGEON",
+      "COWARD"
     ],
-    "theme": "Precious/semi-precious gemstones"
+    "theme": "Each hides a different animal (CAT, DOG, PIG, COW)"
   },
   {
     "words": [
-      "RUBY",
-      "SCARLET",
-      "CRIMSON",
-      "MAROON"
+      "BOWL",
+      "WHEN",
+      "CROWD",
+      "DOVETAIL"
     ],
-    "theme": "Shades of red"
+    "theme": "Each hides a different bird (OWL, HEN, CROW, DOVE)"
   },
   {
     "words": [
-      "VIOLET",
-      "INDIGO",
-      "LAVENDER",
-      "MAUVE"
+      "ATONE",
+      "LISTEN",
+      "CANINE",
+      "WEIGHTY"
     ],
-    "theme": "Shades of purple"
+    "theme": "Each hides a different number (ONE, TEN, NINE, EIGHT)"
   },
   {
     "words": [
-      "SCALE",
-      "FIN",
-      "GILL",
-      "TAIL"
+      "SEARCH",
+      "SHIP",
+      "ALARM",
+      "ILLEGAL"
     ],
-    "theme": "Parts of a fish"
+    "theme": "Each hides a different body part (EAR, HIP, ARM, LEG)"
   },
   {
     "words": [
-      "QUEEN",
-      "DRONE",
-      "HIVE",
-      "SWARM"
+      "HELMET",
+      "CROAK",
+      "AFFIRM",
+      "FLASH"
     ],
-    "theme": "Bee-related words"
+    "theme": "Each hides a different tree (ELM, OAK, FIR, ASH)"
   },
   {
     "words": [
-      "BUZZ",
-      "HUM",
-      "DRONE",
-      "CHIRP"
+      "STOP",
+      "POTS",
+      "TOPS",
+      "SPOT"
     ],
-    "theme": "Sounds insects make"
+    "theme": "Anagrams of each other"
+  },
+  {
+    "words": [
+      "EAT",
+      "TEA",
+      "ATE",
+      "ETA"
+    ],
+    "theme": "Anagrams of each other"
+  },
+  {
+    "words": [
+      "LISTEN",
+      "SILENT",
+      "ENLIST",
+      "TINSEL"
+    ],
+    "theme": "Anagrams of each other"
+  },
+  {
+    "words": [
+      "RATES",
+      "TEARS",
+      "STARE",
+      "TASER"
+    ],
+    "theme": "Anagrams of each other"
+  },
+  {
+    "words": [
+      "RACES",
+      "CARES",
+      "SCARE",
+      "ACRES"
+    ],
+    "theme": "Anagrams of each other"
+  },
+  {
+    "words": [
+      "EYE",
+      "EAR",
+      "HAND",
+      "TOE"
+    ],
+    "theme": "Body parts used in idioms (apple of my eye, in one ear, hands down, toe the line)"
+  },
+  {
+    "words": [
+      "FOOT",
+      "NOSE",
+      "HEAD",
+      "HEART"
+    ],
+    "theme": "Body parts used in idioms (put your foot down, nose around, use your head, heart of gold)"
+  },
+  {
+    "words": [
+      "ARM",
+      "LEG",
+      "BACK",
+      "NECK"
+    ],
+    "theme": "Body parts used in idioms (twist my arm, break a leg, back to square one, neck and neck)"
+  },
+  {
+    "words": [
+      "SHOULDER",
+      "ELBOW",
+      "KNEE",
+      "THUMB"
+    ],
+    "theme": "Body parts used in idioms (shoulder to cry on, elbow grease, knee-jerk, thumbs up)"
+  },
+  {
+    "words": [
+      "CAKE",
+      "BREEZE",
+      "SNAP",
+      "CINCH"
+    ],
+    "theme": "Idioms/words meaning \"very easy\""
+  },
+  {
+    "words": [
+      "EARS",
+      "EAGLE",
+      "BALL",
+      "TACK"
+    ],
+    "theme": "Idioms meaning \"paying close attention\""
+  },
+  {
+    "words": [
+      "CLOUD",
+      "MOON",
+      "ROOF",
+      "HEAVEN"
+    ],
+    "theme": "Idioms meaning \"extremely happy\""
+  },
+  {
+    "words": [
+      "HUSH",
+      "LID",
+      "MUM",
+      "WRAPS"
+    ],
+    "theme": "Idioms meaning \"keep it secret\""
+  },
+  {
+    "words": [
+      "SIX",
+      "ABACK",
+      "BLOWN",
+      "FLOOR"
+    ],
+    "theme": "Idioms meaning \"very surprised\""
+  },
+  {
+    "words": [
+      "HOT",
+      "SOUP",
+      "ROCKS",
+      "DOGHOUSE"
+    ],
+    "theme": "Idioms meaning \"in trouble\""
+  },
+  {
+    "words": [
+      "DOUGH",
+      "BREAD",
+      "CASH",
+      "MOOLAH"
+    ],
+    "theme": "Slang for money"
+  },
+  {
+    "words": [
+      "LOO",
+      "JOHN",
+      "CAN",
+      "HEAD"
+    ],
+    "theme": "Slang for a bathroom"
+  },
+  {
+    "words": [
+      "COPPER",
+      "COP",
+      "FUZZ",
+      "PIG"
+    ],
+    "theme": "Slang for a police officer"
+  },
+  {
+    "words": [
+      "NUTS",
+      "BONKERS",
+      "LOOPY",
+      "BATTY"
+    ],
+    "theme": "Slang for \"crazy\""
+  },
+  {
+    "words": [
+      "SWIPE",
+      "NAB",
+      "PINCH",
+      "LIFT"
+    ],
+    "theme": "Slang for \"to steal\""
+  },
+  {
+    "words": [
+      "SACKED",
+      "CANNED",
+      "AXED",
+      "BOOTED"
+    ],
+    "theme": "Slang for being fired from a job"
+  },
+  {
+    "words": [
+      "JOHN",
+      "PAUL",
+      "GEORGE",
+      "RINGO"
+    ],
+    "theme": "Members of the Beatles"
+  },
+  {
+    "words": [
+      "ROSS",
+      "RACHEL",
+      "MONICA",
+      "JOEY"
+    ],
+    "theme": "Characters from Friends"
+  },
+  {
+    "words": [
+      "DOC",
+      "GRUMPY",
+      "SLEEPY",
+      "HAPPY"
+    ],
+    "theme": "Snow White's dwarfs"
+  },
+  {
+    "words": [
+      "THOR",
+      "HULK",
+      "VISION",
+      "FALCON"
+    ],
+    "theme": "Marvel superheroes"
+  },
+  {
+    "words": [
+      "DOROTHY",
+      "SCARECROW",
+      "TIN MAN",
+      "LION"
+    ],
+    "theme": "Characters from The Wizard of Oz"
+  },
+  {
+    "words": [
+      "GINGER",
+      "SCARY",
+      "POSH",
+      "SPORTY"
+    ],
+    "theme": "Spice Girls nicknames"
+  },
+  {
+    "words": [
+      "KLEENEX",
+      "BAND-AID",
+      "JACUZZI",
+      "THERMOS"
+    ],
+    "theme": "Brand names that became everyday words"
+  },
+  {
+    "words": [
+      "ESCALATOR",
+      "ASPIRIN",
+      "TRAMPOLINE",
+      "ZIPPER"
+    ],
+    "theme": "Brand names that became everyday words"
+  },
+  {
+    "words": [
+      "NIGHT",
+      "KITE",
+      "SIGHT",
+      "WHITE"
+    ],
+    "theme": "All rhyme with the same word (light)"
+  },
+  {
+    "words": [
+      "LAKE",
+      "RAKE",
+      "SNAKE",
+      "BRAKE"
+    ],
+    "theme": "All rhyme with the same word (cake)"
+  },
+  {
+    "words": [
+      "SPOON",
+      "NOON",
+      "BALLOON",
+      "RACCOON"
+    ],
+    "theme": "All rhyme with the same word (moon)"
+  },
+  {
+    "words": [
+      "CAR",
+      "FAR",
+      "GUITAR",
+      "JAR"
+    ],
+    "theme": "All rhyme with the same word (star)"
+  },
+  {
+    "words": [
+      "KEY",
+      "SEA",
+      "KNEE",
+      "FLEA"
+    ],
+    "theme": "All rhyme with the same word (tree)"
+  },
+  {
+    "words": [
+      "LONG JUMP",
+      "HIGH JUMP",
+      "POLE VAULT",
+      "SHOT PUT"
+    ],
+    "theme": "Track and field events"
+  },
+  {
+    "words": [
+      "GIN RUMMY",
+      "GO FISH",
+      "OLD MAID",
+      "CRAZY EIGHTS"
+    ],
+    "theme": "Card games"
+  },
+  {
+    "words": [
+      "HAT TRICK",
+      "GRAND SLAM",
+      "ACE",
+      "PERFECT GAME"
+    ],
+    "theme": "Sports achievements"
   }
 ]

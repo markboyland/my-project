@@ -24,6 +24,7 @@ const endOverlay = document.getElementById("endOverlay");
 const overlayTitle = document.getElementById("overlayTitle");
 const overlayMessage = document.getElementById("overlayMessage");
 const playAgainBtn = document.getElementById("playAgainBtn");
+const solveOneBtn = document.getElementById("solveOneBtn");
 const solvedList = document.getElementById("solvedList");
 const solvedEmpty = document.getElementById("solvedEmpty");
 
@@ -44,6 +45,24 @@ async function init() {
     state.selected.clear();
     render();
   });
+  solveOneBtn.addEventListener("click", solveOne);
+}
+
+// Finds a category that's entirely in the playable area right now and
+// selects it for the player (a hint) — it doesn't submit the guess.
+function solveOne() {
+  if (state.over) return;
+  const playable = new Set();
+  state.columns.forEach((col) => col.slice(0, 4).forEach((w) => playable.add(w)));
+  const cat = state.categories.find((c) => c.words.every((w) => playable.has(w)));
+  if (cat) {
+    state.selected = new Set(cat.words);
+    messageEl.textContent = "";
+    render();
+  } else {
+    messageEl.textContent = "No full category is available in the playable area right now.";
+    messageEl.style.color = "var(--incorrect)";
+  }
 }
 
 function startNewGame() {
@@ -234,7 +253,7 @@ function submitGuess() {
       : "None of those belong together.";
     messageEl.style.color = "var(--incorrect)";
     flashIncorrect(guess);
-    state.selected.clear();
+    // leave the guess selected — the player deselects manually if they want to change it
     render();
   }
 }
