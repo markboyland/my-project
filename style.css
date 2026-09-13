@@ -111,6 +111,13 @@ header h1 {
   text-align: center;
   color: var(--muted);
   font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+
+.shortest-path {
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
   margin: 0 0 20px;
 }
 

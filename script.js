@@ -15,6 +15,7 @@ const els = new Map(); // word -> tile DOM element, persists across renders so w
 
 const board = document.getElementById("board");
 const turnCountEl = document.getElementById("turnCount");
+const shortestTurnsEl = document.getElementById("shortestTurns");
 const targetCountEl = document.getElementById("targetCount");
 const messageEl = document.getElementById("message");
 const submitBtn = document.getElementById("submitBtn");
@@ -65,13 +66,41 @@ function solveOne() {
   }
 }
 
+// Building a board at random doesn't guarantee the 4 red target words can
+// actually all be cleared — some categories might end up permanently split
+// between playable and locked in a way nothing ever unlocks. So we generate
+// candidate boards and run a full search on each one, only keeping a board
+// once we've proven there's a real sequence of guesses that clears every
+// target, and recording the shortest such sequence to show the player.
+const MAX_BOARD_ATTEMPTS = 300;
+
 function startNewGame() {
   els.forEach((el) => el.remove());
   els.clear();
 
-  const words = pickBoardWords(24);
-  state.columns = distributeIntoColumns(words);
-  state.targets = pickTargets(state.columns);
+  let columns, targets, shortest;
+  for (let attempt = 0; attempt < MAX_BOARD_ATTEMPTS; attempt++) {
+    const words = pickBoardWords(24);
+    const candidateColumns = distributeIntoColumns(words);
+    const candidateTargets = pickTargets(candidateColumns);
+    shortest = findShortestSolution(candidateColumns, candidateTargets, state.categories);
+    if (shortest !== null) {
+      columns = candidateColumns;
+      targets = candidateTargets;
+      break;
+    }
+  }
+  // Fall back to the last attempt if we somehow never found a provably
+  // solvable layout (only possible if the database is too sparse right now).
+  if (!columns) {
+    const words = pickBoardWords(24);
+    columns = distributeIntoColumns(words);
+    targets = pickTargets(columns);
+    shortest = findShortestSolution(columns, targets, state.categories);
+  }
+
+  state.columns = columns;
+  state.targets = targets;
   state.selected = new Set();
   state.flashCorrect = new Set();
   state.solved = [];
@@ -79,11 +108,81 @@ function startNewGame() {
   state.over = false;
   state.overReason = null;
 
+  shortestTurnsEl.textContent = shortest === null ? "unknown" : shortest;
   endOverlay.classList.add("hidden");
   messageEl.textContent = "";
   solvedList.innerHTML = "";
   solvedEmpty.hidden = false;
   render();
+}
+
+// ---------- solver: is this board winnable, and in how few turns? ----------
+
+// A board state is fully described by the 4 column stacks (bottom-first).
+// A category is playable from a state if all 4 of its words currently sit
+// in the bottom 4 (unlocked) slots of their own column. Applying a category
+// removes those words from their columns — mirroring removeWord() exactly,
+// so anything above naturally shifts into the playable zone. We BFS over
+// these states (turn by turn) so the first time we reach a state where none
+// of the 4 target words remain, that's the shortest possible solution.
+function columnsKey(columns) {
+  return columns.map((c) => c.join(",")).join("|");
+}
+
+function playableCategoriesFor(columns, categories) {
+  const positionOf = new Map();
+  columns.forEach((col, c) => col.forEach((w, i) => positionOf.set(w, i)));
+  return categories.filter(
+    (cat) => cat.words.length === 4 && cat.words.every((w) => positionOf.get(w) < 4)
+  );
+}
+
+function applyCategory(columns, cat) {
+  const next = columns.map((col) => [...col]);
+  cat.words.forEach((w) => {
+    for (const col of next) {
+      const idx = col.indexOf(w);
+      if (idx !== -1) {
+        col.splice(idx, 1);
+        break;
+      }
+    }
+  });
+  return next;
+}
+
+function remainingTargets(columns, targets) {
+  const present = new Set();
+  columns.forEach((col) => col.forEach((w) => present.add(w)));
+  for (const t of targets) {
+    if (present.has(t)) return true;
+  }
+  return false;
+}
+
+function findShortestSolution(columns, targets, categories) {
+  if (!remainingTargets(columns, targets)) return 0;
+
+  const visited = new Set([columnsKey(columns)]);
+  let frontier = [columns];
+  const SAFETY_TURN_CAP = 40;
+
+  for (let turns = 1; turns <= SAFETY_TURN_CAP && frontier.length; turns++) {
+    const nextFrontier = [];
+    for (const state of frontier) {
+      for (const cat of playableCategoriesFor(state, categories)) {
+        const next = applyCategory(state, cat);
+        if (!remainingTargets(next, targets)) return turns;
+        const key = columnsKey(next);
+        if (!visited.has(key)) {
+          visited.add(key);
+          nextFrontier.push(next);
+        }
+      }
+    }
+    frontier = nextFrontier;
+  }
+  return null; // no sequence of legal guesses clears all 4 targets
 }
 
 // Greedily assemble 24 unique words, preferring categories that share
@@ -196,15 +295,6 @@ function bestOverlapCount(guessSet) {
   return best;
 }
 
-// Is there still at least one category whose 4 words are all present
-// somewhere on the board (playable or locked)? If not, no future guess
-// can ever succeed and the game is stuck.
-function hasAnySolvableCategory() {
-  const remaining = new Set();
-  state.columns.forEach((col) => col.forEach((w) => remaining.add(w)));
-  return state.categories.some((cat) => cat.words.every((w) => remaining.has(w)));
-}
-
 function submitGuess() {
   if (state.selected.size !== 4 || state.over) return;
   const guess = [...state.selected];
@@ -236,12 +326,12 @@ function submitGuess() {
         state.over = true;
         state.overReason = "won";
         showEndOverlay("Solved!", `You cleared all the red words in ${state.turns} turns.`);
-      } else if (!hasAnySolvableCategory()) {
+      } else if (findShortestSolution(state.columns, state.targets, state.categories) === null) {
         state.over = true;
         state.overReason = "stuck";
         showEndOverlay(
-          "No categories left",
-          `The remaining words don't form any known category. Game over after ${state.turns} turns.`
+          "No path to victory",
+          `No sequence of guesses can clear the remaining red words from here. Game over after ${state.turns} turns.`
         );
       }
       render();
