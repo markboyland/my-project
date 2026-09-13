@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cascade Connections</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <div class="app">
+      <header>
+        <h1>Cascade Connections</h1>
+        <p class="subtitle">Clear the red words in as few turns as possible. Words above the line will fall down once you clear space.</p>
+      </header>
+
+      <div class="hud">
+        <div class="hud-item">Turns: <span id="turnCount">0</span></div>
+        <div class="hud-item">Red words left: <span id="targetCount">4</span></div>
+        <button id="newGameBtn">New Game</button>
+      </div>
+
+      <div id="board" class="board"></div>
+
+      <div class="controls">
+        <button id="deselectBtn" class="secondary" disabled>Deselect All</button>
+        <button id="submitBtn" disabled>Submit Guess</button>
+      </div>
+
+      <p id="message" class="message"></p>
+    </div>
+
+    <aside class="solved-panel">
+      <h2>Solved Categories</h2>
+      <ul id="solvedList" class="solved-list"></ul>
+      <p id="solvedEmpty" class="solved-empty">None yet — solved categories will show up here.</p>
+    </aside>
+  </div>
+
+  <div id="endOverlay" class="overlay hidden">
+    <div class="overlay-card">
+      <h2 id="overlayTitle">Solved!</h2>
+      <p id="overlayMessage">You cleared all the red words in <span id="finalTurns">0</span> turns.</p>
+      <button id="playAgainBtn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

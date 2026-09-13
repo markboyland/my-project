@@ -1,0 +1,668 @@
+[
+  {
+    "words": [
+      "RED",
+      "BLUE",
+      "GREEN",
+      "YELLOW"
+    ],
+    "theme": "Primary/basic colors"
+  },
+  {
+    "words": [
+      "BLUE",
+      "DOWN",
+      "LOW",
+      "GLUM"
+    ],
+    "theme": "Words meaning sad"
+  },
+  {
+    "words": [
+      "DOWN",
+      "UP",
+      "LEFT",
+      "RIGHT"
+    ],
+    "theme": "Directions on a joystick"
+  },
+  {
+    "words": [
+      "LEFT",
+      "RIGHT",
+      "CENTER",
+      "WING"
+    ],
+    "theme": "Political leanings"
+  },
+  {
+    "words": [
+      "WING",
+      "BREAST",
+      "THIGH",
+      "DRUMSTICK"
+    ],
+    "theme": "Cuts of chicken"
+  },
+  {
+    "words": [
+      "BREAST",
+      "BACKSTROKE",
+      "BUTTERFLY",
+      "FREESTYLE"
+    ],
+    "theme": "Competitive swimming strokes"
+  },
+  {
+    "words": [
+      "BUTTERFLY",
+      "BEETLE",
+      "MOTH",
+      "ANT"
+    ],
+    "theme": "Insects"
+  },
+  {
+    "words": [
+      "BEETLE",
+      "MUSTANG",
+      "RAM",
+      "JAGUAR"
+    ],
+    "theme": "Car models named after animals"
+  },
+  {
+    "words": [
+      "EWE",
+      "RAM",
+      "SOW",
+      "PIG"
+    ],
+    "theme": "Farm animals"
+  },
+  {
+    "words": [
+      "BEAR",
+      "HARE",
+      "DEER",
+      "EWE"
+    ],
+    "theme": "Animals that are homophones"
+  },
+  {
+    "words": [
+      "DEER",
+      "HARE",
+      "RAT",
+      "VOLE"
+    ],
+    "theme": "Small wild animals"
+  },
+  {
+    "words": [
+      "MOUSE",
+      "RAT",
+      "VOLE",
+      "MOLE"
+    ],
+    "theme": "Small rodents"
+  },
+  {
+    "words": [
+      "RAM",
+      "DISK",
+      "MOUSE",
+      "SCREEN"
+    ],
+    "theme": "Computer hardware"
+  },
+  {
+    "words": [
+      "KNIGHT",
+      "WEIGHT",
+      "BEAR",
+      "THROWN"
+    ],
+    "theme": "Homophones of other words"
+  },
+  {
+    "words": [
+      "SCALE",
+      "WEIGHT",
+      "GAUGE",
+      "METER"
+    ],
+    "theme": "Ways to measure something"
+  },
+  {
+    "words": [
+      "PITCH",
+      "KEY",
+      "NOTE",
+      "SCALE"
+    ],
+    "theme": "Music theory terms"
+  },
+  {
+    "words": [
+      "DIAMOND",
+      "PITCH",
+      "BASE",
+      "HOME"
+    ],
+    "theme": "Baseball terms"
+  },
+  {
+    "words": [
+      "KEY",
+      "LOCK",
+      "BOLT",
+      "LATCH"
+    ],
+    "theme": "Ways to secure a door"
+  },
+  {
+    "words": [
+      "KING",
+      "QUEEN",
+      "ROOK",
+      "BISHOP"
+    ],
+    "theme": "Chess pieces"
+  },
+  {
+    "words": [
+      "KING",
+      "QUEEN",
+      "PRINCE",
+      "DUKE"
+    ],
+    "theme": "Titles of royalty"
+  },
+  {
+    "words": [
+      "MOLE",
+      "AGENT",
+      "COVER",
+      "HANDLER"
+    ],
+    "theme": "Espionage/spy terms"
+  },
+  {
+    "words": [
+      "COPPER",
+      "COP",
+      "FUZZ",
+      "PIG"
+    ],
+    "theme": "Slang for a police officer"
+  },
+  {
+    "words": [
+      "IRON",
+      "COPPER",
+      "TIN",
+      "LEAD"
+    ],
+    "theme": "Metallic elements"
+  },
+  {
+    "words": [
+      "FOLD",
+      "WASH",
+      "IRON",
+      "DRY"
+    ],
+    "theme": "Laundry actions"
+  },
+  {
+    "words": [
+      "FOLD",
+      "CALL",
+      "RAISE",
+      "BLUFF"
+    ],
+    "theme": "Poker actions"
+  },
+  {
+    "words": [
+      "FACE",
+      "HAND",
+      "ARM",
+      "LEG"
+    ],
+    "theme": "Parts of the body"
+  },
+  {
+    "words": [
+      "ARM",
+      "SWORD",
+      "CANNON",
+      "PISTOL"
+    ],
+    "theme": "Weapons"
+  },
+  {
+    "words": [
+      "HAMMER",
+      "WRENCH",
+      "PLIERS",
+      "SCREWDRIVER"
+    ],
+    "theme": "Hand tools"
+  },
+  {
+    "words": [
+      "KEY",
+      "PEDAL",
+      "HAMMER",
+      "STRING"
+    ],
+    "theme": "Parts of a piano"
+  },
+  {
+    "words": [
+      "LEAD",
+      "GUIDE",
+      "STEER",
+      "DIRECT"
+    ],
+    "theme": "Verbs meaning to show the way"
+  },
+  {
+    "words": [
+      "JAGUAR",
+      "PANTHER",
+      "LEOPARD",
+      "COUGAR"
+    ],
+    "theme": "Big cats"
+  },
+  {
+    "words": [
+      "HEEL",
+      "FACE",
+      "RING",
+      "PIN"
+    ],
+    "theme": "Pro wrestling terms"
+  },
+  {
+    "words": [
+      "TONGUE",
+      "SOLE",
+      "HEEL",
+      "LACE"
+    ],
+    "theme": "Parts of a shoe"
+  },
+  {
+    "words": [
+      "TONGUE",
+      "LIP",
+      "CHEEK",
+      "GUM"
+    ],
+    "theme": "Parts of the mouth"
+  },
+  {
+    "words": [
+      "MOUTH",
+      "EAR",
+      "NOSE",
+      "EYE"
+    ],
+    "theme": "Parts of the face"
+  },
+  {
+    "words": [
+      "RING",
+      "BRACELET",
+      "NECKLACE",
+      "BROOCH"
+    ],
+    "theme": "Pieces of jewelry"
+  },
+  {
+    "words": [
+      "PIN",
+      "STRIKE",
+      "SPARE",
+      "GUTTER"
+    ],
+    "theme": "Bowling terms"
+  },
+  {
+    "words": [
+      "STRIKE",
+      "PICKET",
+      "UNION",
+      "WALKOUT"
+    ],
+    "theme": "Labor dispute terms"
+  },
+  {
+    "words": [
+      "GUTTER",
+      "EAVE",
+      "SHINGLE",
+      "CHIMNEY"
+    ],
+    "theme": "Parts of a roof"
+  },
+  {
+    "words": [
+      "CHIMNEY",
+      "SLEIGH",
+      "REINDEER",
+      "STOCKING"
+    ],
+    "theme": "Christmas imagery"
+  },
+  {
+    "words": [
+      "BED",
+      "BANK",
+      "MOUTH",
+      "DELTA"
+    ],
+    "theme": "Features of a river"
+  },
+  {
+    "words": [
+      "BANK",
+      "VAULT",
+      "SAFE",
+      "TELLER"
+    ],
+    "theme": "Places money is kept"
+  },
+  {
+    "words": [
+      "BED",
+      "SOFA",
+      "DESK",
+      "DRESSER"
+    ],
+    "theme": "Pieces of furniture"
+  },
+  {
+    "words": [
+      "EYE",
+      "WALL",
+      "BAND",
+      "SURGE"
+    ],
+    "theme": "Parts of a hurricane"
+  },
+  {
+    "words": [
+      "WALL",
+      "BULL",
+      "BEAR",
+      "PORTFOLIO"
+    ],
+    "theme": "Wall Street/investing terms"
+  },
+  {
+    "words": [
+      "BULL",
+      "MATADOR",
+      "CAPE",
+      "ARENA"
+    ],
+    "theme": "Bullfighting terms"
+  },
+  {
+    "words": [
+      "CAPE",
+      "MASK",
+      "SHIELD",
+      "SUIT"
+    ],
+    "theme": "Superhero costume pieces"
+  },
+  {
+    "words": [
+      "SUIT",
+      "CASE",
+      "BRIEF",
+      "PLEA"
+    ],
+    "theme": "Legal terms"
+  },
+  {
+    "words": [
+      "MASK",
+      "COSTUME",
+      "CANDY",
+      "PUMPKIN"
+    ],
+    "theme": "Halloween imagery"
+  },
+  {
+    "words": [
+      "GUM",
+      "CANDY",
+      "JAM",
+      "HONEY"
+    ],
+    "theme": "Sweet, sticky things"
+  },
+  {
+    "words": [
+      "MAPLE",
+      "HONEY",
+      "BUTTER",
+      "JAM"
+    ],
+    "theme": "Things you might spread on toast"
+  },
+  {
+    "words": [
+      "OAK",
+      "PINE",
+      "ELM",
+      "MAPLE"
+    ],
+    "theme": "Types of trees"
+  },
+  {
+    "words": [
+      "PINE",
+      "CRAVE",
+      "YEARN",
+      "COVET"
+    ],
+    "theme": "Verbs meaning to strongly want something"
+  },
+  {
+    "words": [
+      "SHIELD",
+      "HELMET",
+      "PAD",
+      "GUARD"
+    ],
+    "theme": "Protective sports equipment"
+  },
+  {
+    "words": [
+      "GUARD",
+      "CENTER",
+      "FORWARD",
+      "POINT"
+    ],
+    "theme": "Basketball positions"
+  },
+  {
+    "words": [
+      "FORWARD",
+      "MIDFIELDER",
+      "DEFENDER",
+      "GOALKEEPER"
+    ],
+    "theme": "Soccer positions"
+  },
+  {
+    "words": [
+      "POINT",
+      "GOAL",
+      "SCORE",
+      "TALLY"
+    ],
+    "theme": "Ways to track who's winning"
+  },
+  {
+    "words": [
+      "TALLY",
+      "COUNT",
+      "TOTAL",
+      "SUM"
+    ],
+    "theme": "Words meaning an overall amount"
+  },
+  {
+    "words": [
+      "SCORE",
+      "STAFF",
+      "CLEF",
+      "CHORD"
+    ],
+    "theme": "Sheet music terms"
+  },
+  {
+    "words": [
+      "STAFF",
+      "CREW",
+      "TEAM",
+      "PERSONNEL"
+    ],
+    "theme": "Words for a group of employees"
+  },
+  {
+    "words": [
+      "METER",
+      "RHYME",
+      "VERSE",
+      "STANZA"
+    ],
+    "theme": "Elements of poetry"
+  },
+  {
+    "words": [
+      "GAS",
+      "BRAKE",
+      "CLUTCH",
+      "HORN"
+    ],
+    "theme": "Parts/controls of a car"
+  },
+  {
+    "words": [
+      "HORN",
+      "TRUMPET",
+      "TUBA",
+      "TROMBONE"
+    ],
+    "theme": "Brass instruments"
+  },
+  {
+    "words": [
+      "BASS",
+      "DRUM",
+      "CELLO",
+      "TUBA"
+    ],
+    "theme": "Low-pitched musical instruments"
+  },
+  {
+    "words": [
+      "SALMON",
+      "TROUT",
+      "BASS",
+      "PIKE"
+    ],
+    "theme": "Types of freshwater fish"
+  },
+  {
+    "words": [
+      "ROSE",
+      "CORAL",
+      "SALMON",
+      "BLUSH"
+    ],
+    "theme": "Shades of pink"
+  },
+  {
+    "words": [
+      "VIOLET",
+      "ROSE",
+      "LILY",
+      "DAISY"
+    ],
+    "theme": "Types of flowers"
+  },
+  {
+    "words": [
+      "RUBY",
+      "JADE",
+      "PEARL",
+      "VIOLET"
+    ],
+    "theme": "Girls' names also meaning colors/gems"
+  },
+  {
+    "words": [
+      "RUBY",
+      "JADE",
+      "OPAL",
+      "PEARL"
+    ],
+    "theme": "Precious/semi-precious gemstones"
+  },
+  {
+    "words": [
+      "RUBY",
+      "SCARLET",
+      "CRIMSON",
+      "MAROON"
+    ],
+    "theme": "Shades of red"
+  },
+  {
+    "words": [
+      "VIOLET",
+      "INDIGO",
+      "LAVENDER",
+      "MAUVE"
+    ],
+    "theme": "Shades of purple"
+  },
+  {
+    "words": [
+      "SCALE",
+      "FIN",
+      "GILL",
+      "TAIL"
+    ],
+    "theme": "Parts of a fish"
+  },
+  {
+    "words": [
+      "QUEEN",
+      "DRONE",
+      "HIVE",
+      "SWARM"
+    ],
+    "theme": "Bee-related words"
+  },
+  {
+    "words": [
+      "BUZZ",
+      "HUM",
+      "DRONE",
+      "CHIRP"
+    ],
+    "theme": "Sounds insects make"
+  }
+]
