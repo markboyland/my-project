@@ -9,6 +9,9 @@ const state = {
   turns: 0,
   over: false,               // true once the game has ended (win or dead end)
   overReason: null,          // "won" | "stuck"
+  initialColumns: null,      // pristine copy of this board's starting layout, for retrying
+  initialTargets: null,
+  initialShortest: null,
 };
 
 const els = new Map(); // word -> tile DOM element, persists across renders so we can animate
@@ -39,7 +42,11 @@ async function init() {
   newGameBtn.addEventListener("click", startNewGame);
   playAgainBtn.addEventListener("click", () => {
     endOverlay.classList.add("hidden");
-    startNewGame();
+    if (state.overReason === "stuck") {
+      restartSameBoard();
+    } else {
+      startNewGame();
+    }
   });
   submitBtn.addEventListener("click", submitGuess);
   deselectBtn.addEventListener("click", () => {
@@ -99,6 +106,27 @@ function startNewGame() {
     shortest = findShortestSolution(columns, targets, state.categories);
   }
 
+  // Keep a pristine copy so a "no path to victory" loss can retry this exact
+  // board (same tiles, same targets) instead of dealing a brand new one.
+  state.initialColumns = columns.map((col) => [...col]);
+  state.initialTargets = new Set(targets);
+  state.initialShortest = shortest;
+
+  applyBoard(columns, targets, shortest);
+}
+
+// Restart the current board from its original layout — used when the player
+// talks themselves into a dead end and wants to retry rather than get a
+// fresh (differently-worded) board.
+function restartSameBoard() {
+  els.forEach((el) => el.remove());
+  els.clear();
+  const columns = state.initialColumns.map((col) => [...col]);
+  const targets = new Set(state.initialTargets);
+  applyBoard(columns, targets, state.initialShortest);
+}
+
+function applyBoard(columns, targets, shortest) {
   state.columns = columns;
   state.targets = targets;
   state.selected = new Set();
@@ -351,6 +379,7 @@ function submitGuess() {
 function showEndOverlay(title, message) {
   overlayTitle.textContent = title;
   overlayMessage.textContent = message;
+  playAgainBtn.textContent = state.overReason === "stuck" ? "Retry This Board" : "Play Again";
   setTimeout(() => endOverlay.classList.remove("hidden"), 500);
 }
 
